@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>it is the protected page</h1>
+      <h1>It is the protected routes </h1>
     </div>
   );
 }
