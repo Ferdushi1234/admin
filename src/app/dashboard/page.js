@@ -25,7 +25,7 @@ import Reports from "../reports/page";
 import Tasks from "../tasks/page";
 import Kanban from "../kanban/page";
 import { useContext } from "react";
-import { GlobalContext } from "../../context";
+import { GlobalContext } from "../context";
 
 export default function Dashboard() {
   const { allReportsData, allTasks } = useContext(GlobalContext);

@@ -4,7 +4,7 @@ import Card from "../../components/card";
 import { MdCheckCircle } from "react-icons/md";
 import { FiPlus } from "react-icons/fi";
 import { useContext } from "react";
-import { GlobalContext } from "../../context";
+import { GlobalContext } from "../context";
 
 export default function Tasks() {
   const {

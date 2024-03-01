@@ -1,6 +1,6 @@
 "use client";
 
-import { GlobalContext, initialReportFormData } from "../../context";
+import { GlobalContext, initialReportFormData } from "../../app/context";
 import { Dialog, DialogActions, DialogContent } from "@mui/material";
 import { useContext, useState } from "react";
 import { FiPlus } from "react-icons/fi";

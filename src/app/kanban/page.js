@@ -1,7 +1,7 @@
 "use client";
 
 import KanbanCard from "../../components/kanban";
-import { GlobalContext } from "../../context";
+import { GlobalContext } from "../context";
 import { DndContext, rectIntersection } from "@dnd-kit/core";
 import { useContext } from "react";
 

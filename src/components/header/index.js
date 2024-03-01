@@ -1,5 +1,5 @@
 "use client";
-import { GlobalContext } from "../../context";
+import { GlobalContext } from "../../app/context";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import { useContext } from "react";

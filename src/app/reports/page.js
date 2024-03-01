@@ -2,7 +2,7 @@
 
 import Card from "../../components/card";
 import CommonModal from "../../components/modal";
-import { GlobalContext } from "../../context";
+import { GlobalContext } from "../context";
 import { useContext } from "react";
 
 export default function Reports() {

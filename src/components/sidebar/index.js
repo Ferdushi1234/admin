@@ -1,6 +1,6 @@
 "use client";
 
-import { GlobalContext } from "../../context";
+import { GlobalContext } from "../../app/context";
 import { routes } from "../../utils";
 import Link from "next/link";
 import { useContext } from "react";

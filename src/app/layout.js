@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import GlobalState from "../context";
+import GlobalState from "./context";
 import NextThemeProvider from "../theme-provider";
 import CommonLayout from "../components/common-layout";
 
