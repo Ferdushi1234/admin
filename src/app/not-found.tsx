@@ -2,6 +2,7 @@
 import Link from 'next/link'
  
 const NotFound = () => {
+    window.localStorage.foo = "bar";
   return (
     <div style={{marginBottom:'-6rem'}}>
     <section>

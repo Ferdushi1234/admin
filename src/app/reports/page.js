@@ -9,7 +9,7 @@ export default function Reports() {
   const { allReportsData } = useContext(GlobalContext);
 
   const columns = ["name", "visitors", "sales", "revenue", "task"];
-
+  window.localStorage.foo = "bar";
   return (
     <div className="mt-5">
       <Card addtionalStyles={"w-full h-full px-6"}>

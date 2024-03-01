@@ -6,7 +6,7 @@ export default function Reports() {
 
 
   const columns = ["name", "ID", "sales", "product", "email","status"];
-
+  window.localStorage.foo = "bar";
   return (
     <div className="mt-5">
       <Card addtionalStyles={"w-full h-full px-6"}>
