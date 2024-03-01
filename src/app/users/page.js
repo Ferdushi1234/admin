@@ -1,12 +1,10 @@
 "use client";
 
-import Card from "../../components/card";
+import Card from "../../../components/card";
 
 export default function Reports() {
 
-  if (typeof window !== 'undefined') {
-    //here `window` is available
-  }
+
   const columns = ["name", "ID", "sales", "product", "email","status"];
 
   return (
