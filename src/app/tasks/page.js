@@ -30,7 +30,7 @@ export default function Tasks() {
   }
 
   console.log(allTasks);
-  window.localStorage.foo = "bar";
+
   return (
     <div className="mt-5 rounded-[20px]">
       <Card addtionalStyles={"pb-7 p-[20px]"}>

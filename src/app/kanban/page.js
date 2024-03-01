@@ -16,7 +16,7 @@ export default function Kanban() {
     doneItems,
     setDoneItems,
   } = useContext(GlobalContext);
-  window.localStorage.foo = "bar";
+
   return (
     <DndContext
       collisionDetection={rectIntersection}

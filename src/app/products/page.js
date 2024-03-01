@@ -1,7 +1,9 @@
 import React from 'react'
 import Products from '../../components/products'
 const page = () => {
-  window.localStorage.foo = "bar";
+  if (typeof window !== 'undefined') {
+    //here `window` is available
+  }
   return (
     <>
       <Products/>

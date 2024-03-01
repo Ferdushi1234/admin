@@ -2,7 +2,9 @@
 import Link from 'next/link'
  
 const NotFound = () => {
-    window.localStorage.foo = "bar";
+    if (typeof window !== 'undefined') {
+        //here `window` is available
+      }
   return (
     <div style={{marginBottom:'-6rem'}}>
     <section>

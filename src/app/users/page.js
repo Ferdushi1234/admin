@@ -4,9 +4,11 @@ import Card from "../../components/card";
 
 export default function Reports() {
 
-
+  if (typeof window !== 'undefined') {
+    //here `window` is available
+  }
   const columns = ["name", "ID", "sales", "product", "email","status"];
-  window.localStorage.foo = "bar";
+
   return (
     <div className="mt-5">
       <Card addtionalStyles={"w-full h-full px-6"}>
